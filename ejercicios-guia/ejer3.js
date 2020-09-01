@@ -1,9 +1,3 @@
-function esEntero(entero){
-    if (entero %1 ===0){
-        return "Es entero"
-    }else{
-        return "No es entero"
-    }
-}
-console.log(esEntero(5));
+var esPar = (entero) => entero%2===0 ? "Es par":"Es impar";
+console.log(esPar(2));
 

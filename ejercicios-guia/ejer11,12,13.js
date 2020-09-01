@@ -40,6 +40,6 @@ unEstudiante.setProfesor(this.nombre);
 
 
 var gian = new Estudiante("Gian marco",20);
-gian.presentarse();
+console.log(gian.presentarse());
 gian.setProfesor("carlos");
 gian.estudiando();

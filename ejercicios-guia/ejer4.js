@@ -1,7 +1,7 @@
 function algunoEsPar(array){
-    var even=(element) => element %2 ===0;
-    console.log(array.some(even));
-   }
+    let esPar=(element) => element %2 ===0;
+    return array.some(esPar);
+}
 
 var arr = [1,2,3];
-algunoEsPar(arr);
+console.log(algunoEsPar(arr));
