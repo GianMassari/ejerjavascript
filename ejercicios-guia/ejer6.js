@@ -4,7 +4,7 @@ function aprobo(array){
 }
 
 function quienesAprobaron(curso){
-    var arrAprobados = [curso.filter(alumno => aprobo(alumno))];
+    var arrAprobados = curso.filter(alumno => aprobo(alumno));
 return arrAprobados;
 }
 
